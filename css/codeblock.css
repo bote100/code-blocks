@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+.white-theme .code-block-code {
+    color: black;
+    font: 12px/18px Roboto Mono,monospace;
+}
+
+.black-theme .code-block-code {
+    color: whitesmoke;
+    font: 12px/18px Roboto Mono,monospace;
+}
+
+.code-block {
+    height: auto;
+    min-height: 300px;
+    width: 600px;
+    box-sizing: border-box;
+    border: 1px solid #e8eaed;
+}
+
+/* #37474f */
+
+.code-block-panel {
+    height: auto;
+    min-height: 200px;
+    max-height: 300px;
+    overflow: scroll;
+    width: auto;
+    margin-left: 15px;
+}
+
+.black-theme .code-block-panel {
+    background-color: #37474f;
+}
+
+.code-block-link {
+    color: #757575;
+    font-weight: 600;
+}
+
+.code-block-link-active {
+    color: #7CB342;
+}
+
+.code-block-tab-active {
+    box-sizing: border-box;
+    border-bottom: 5px solid #7CB342;
+}
+
+.code-block-option:hover {
+    color: #3b5175;
+    transition: color 0.25s;
+}
+
+.code-block-option {
+    font-size: 20px!important;
+    transition: color 0.25s;
+    color: #757575;
+    opacity: 0.75;
+}
